@@ -239,14 +239,8 @@
     <None Include="..\..\..\..\..\..\modules\features2d\src\opencl\orb.cl" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="$(OCV2015_ROOT)/vs2015/WS/10.0/ARM/ZERO_CHECK.vcxproj">
-      <Project>14BF26F8-F9CC-4B1D-AF14-75250463B102</Project>
-    </ProjectReference>
     <ProjectReference Include="$(OCV2015_ROOT)/vs2015/WS/10.0/ARM/modules/core/opencv_core.vcxproj">
       <Project>0316DD57-4D5D-4E1A-88B2-6534F3107542</Project>
-    </ProjectReference>
-    <ProjectReference Include="$(OCV2015_ROOT)/vs2015/WS/10.0/ARM/modules/flann/opencv_flann.vcxproj">
-      <Project>E3916DE2-D6B3-4FA6-9A14-32F9CE5DCC96</Project>
     </ProjectReference>
     <ProjectReference Include="$(OCV2015_ROOT)/vs2015/WS/10.0/ARM/modules/hal/opencv_hal.vcxproj">
       <Project>ED6F12A1-E1A9-4D89-A606-8F299A1B3E2A</Project>

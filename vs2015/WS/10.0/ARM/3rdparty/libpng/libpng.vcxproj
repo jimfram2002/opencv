@@ -165,9 +165,6 @@
     <ClCompile Include="..\..\..\..\..\..\3rdparty\libpng\pngwutil.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="$(OCV2015_ROOT)/vs2015/WS/10.0/ARM/ZERO_CHECK.vcxproj">
-      <Project>14BF26F8-F9CC-4B1D-AF14-75250463B102</Project>
-    </ProjectReference>
     <ProjectReference Include="$(OCV2015_ROOT)/vs2015/WS/10.0/ARM/3rdparty/zlib/zlib.vcxproj">
       <Project>1D0DEE65-ED23-48AA-9E4B-201225935D01</Project>
     </ProjectReference>

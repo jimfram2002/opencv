@@ -230,9 +230,6 @@
     <None Include="..\..\..\..\..\..\modules\stitching\src\opencl\warpers.cl" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="$(OCV2015_ROOT)/vs2015/WS/10.0/ARM/ZERO_CHECK.vcxproj">
-      <Project>14BF26F8-F9CC-4B1D-AF14-75250463B102</Project>
-    </ProjectReference>
     <ProjectReference Include="$(OCV2015_ROOT)/vs2015/WS/10.0/ARM/modules/calib3d/opencv_calib3d.vcxproj">
       <Project>BF56DD13-6883-46BD-AA42-EB07B93652F6</Project>
     </ProjectReference>

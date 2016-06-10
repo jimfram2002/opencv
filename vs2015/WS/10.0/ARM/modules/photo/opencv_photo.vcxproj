@@ -229,9 +229,6 @@
     <None Include="..\..\..\..\..\..\modules\photo\src\opencl\nlmeans.cl" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="$(OCV2015_ROOT)/vs2015/WS/10.0/ARM/ZERO_CHECK.vcxproj">
-      <Project>14BF26F8-F9CC-4B1D-AF14-75250463B102</Project>
-    </ProjectReference>
     <ProjectReference Include="$(OCV2015_ROOT)/vs2015/WS/10.0/ARM/modules/core/opencv_core.vcxproj">
       <Project>0316DD57-4D5D-4E1A-88B2-6534F3107542</Project>
     </ProjectReference>

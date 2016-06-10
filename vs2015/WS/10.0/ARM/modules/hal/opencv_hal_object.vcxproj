@@ -167,11 +167,6 @@
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(OCV2015_ROOT)/modules/hal/src/precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="$(OCV2015_ROOT)/vs2015/WS/10.0/ARM/ZERO_CHECK.vcxproj">
-      <Project>14BF26F8-F9CC-4B1D-AF14-75250463B102</Project>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
